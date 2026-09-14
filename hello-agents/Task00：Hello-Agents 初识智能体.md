@@ -45,7 +45,7 @@ PEAS 用来定义智能体任务的四个要素：
 ### 运行验证
 使用 `FirstAgentTest.py` 完成 ReAct 智能体循环演示，Agent 可自主思考、调用天气工具；景点工具密钥缺失时具备降级容错逻辑，控制台完整运行日志见截图。
 
-<img src="./assets/agent_react_run_log.png" width="700"/>
+<img src="../assets/task00_env_run.png" width="700" alt="Task00 ReAct智能体运行截图">
 
 ## 三、实操踩坑记录
 1. 环境变量修改后，**必须重启 Python 程序**，新的 env 配置才能生效；
