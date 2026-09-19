@@ -10,5 +10,6 @@
 - Task00：Hello‑Agents 初识智能体
 - Task01：五分钟快速构建智能体
 - Task02：ELIZA智能体改造实战与智能体发展史阅读
+- Task03：大语言模型基础
 
 
