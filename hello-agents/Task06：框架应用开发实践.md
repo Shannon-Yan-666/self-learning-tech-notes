@@ -45,21 +45,19 @@
 > - AutoGenDemo：模拟软件研发多智能体团队案例
 > - CAMEL：电子书写作案例
 > - Langgraph：对话系统案例
-
 ### 2.1 AutoGen框架实操
 > 实验目标：搭建模拟软件开发多智能体团队，产品经理、工程师、代码审查员、用户代理协作完成比特币价格Streamlit应用。
 > 环境要点：项目内`.env`可复用之前兼容OpenAI协议的大模型配置；非OpenAI模型需要手动补全`model_info`模型能力描述；每个Demo自带独立`requirements.txt`。
-
 **图片文件名说明：**
 - `task06_autogen_run_01.png`：程序初始化、下发业务需求截图
 - `task06_autogen_run_02.png`：ProductManager产品经理输出需求分析截图
 - `task06_autogen_run_03.png`：Engineer工程师输出完整项目代码截图
 - `task06_autogen_run_04.png`：CodeReviewer代码审查员输出评审报告截图
 
-![task06_autogen_run_01.png](./assets/task06_autogen_run_01.png)
-![task06_autogen_run_02.png](./assets/task06_autogen_run_02.png)
-![task06_autogen_run_03.png](./assets/task06_autogen_run_03.png)
-![task06_autogen_run_04.png](./assets/task06_autogen_run_04.png)
+![task06_autogen_run_01.png](../assets/task06_autogen_run_01.png)
+![task06_autogen_run_02.png](../assets/task06_autogen_run_02.png)
+![task06_autogen_run_03.png](../assets/task06_autogen_run_03.png)
+![task06_autogen_run_04.png](../assets/task06_autogen_run_04.png)
 
 实操记录：
 1. 环境：本地venv虚拟环境，使用Qwen/Qwen3.5‑27B，接口使用OpenAI兼容协议；
@@ -74,17 +72,16 @@
 ### 2.2 AgentScope框架实操
 > 实验目标：三国狼人杀多智能体游戏，体验MsgHub消息中心、并行流水线、结构化输出约束角色行为。
 > 实操对象：AgentScope三国狼人杀Demo
-
 **图片文件名说明：**
 - `task06_AgentScopeDemo_werewolf_run_01.png`：游戏初始化、第一回合黑夜阶段截图
 - `task06_AgentScopeDemo_werewolf_run_02.png`：角色对话、输出 JSON 片段截图
 - `task06_AgentScopeDemo_werewolf_run_03.png`：程序运行过程中输出的智能体消息与状态流转截图
 - `task06_AgentScopeDemo_werewolf_run_04.png`：模型返回结果、异常提示与程序继续执行截图
 
-![task06_AgentScopeDemo_werewolf_run_01.png](./assets/task06_AgentScopeDemo_werewolf_run_01.png)
-![task06_AgentScopeDemo_werewolf_run_02.png](./assets/task06_AgentScopeDemo_werewolf_run_02.png)
-![task06_AgentScopeDemo_werewolf_run_03.png](./assets/task06_AgentScopeDemo_werewolf_run_03.png)
-![task06_AgentScopeDemo_werewolf_run_04.png](./assets/task06_AgentScopeDemo_werewolf_run_04.png)
+![task06_AgentScopeDemo_werewolf_run_01.png](../assets/task06_AgentScopeDemo_werewolf_run_01.png)
+![task06_AgentScopeDemo_werewolf_run_02.png](../assets/task06_AgentScopeDemo_werewolf_run_02.png)
+![task06_AgentScopeDemo_werewolf_run_03.png](../assets/task06_AgentScopeDemo_werewolf_run_03.png)
+![task06_AgentScopeDemo_werewolf_run_04.png](../assets/task06_AgentScopeDemo_werewolf_run_04.png)
 
 实操记录：
 1. 环境：本地venv虚拟环境，调用阿里云百炼业务空间大模型API；
@@ -94,15 +91,14 @@
 ### 2.3 CAMEL框架实操
 > 实验目标：CAMEL角色扮演模式，心理学家、作家双Agent，自主协作生成拖延症科普电子书。
 > 说明：理解`RolePlaying`会话、inception prompting、终止标记；调试发现效果高度依赖大模型能力与提示词质量。
-
 **图片文件名说明：**
 - `task06_camel_run_01.png`：第一轮输出，生成电子书大纲
 - `task06_camel_run_02.png`：大纲完整输出下半部分
 - `task06_camel_run_03.png`：进入最后一轮，开始撰写引言章节，写作说明
 
-![task06_camel_run_01.png](./assets/task06_camel_run_01.png)
-![task06_camel_run_02.png](./assets/task06_camel_run_02.png)
-![task06_camel_run_03.png](./assets/task06_camel_run_03.png)
+![task06_camel_run_01.png](../assets/task06_camel_run_01.png)
+![task06_camel_run_02.png](../assets/task06_camel_run_02.png)
+![task06_camel_run_03.png](../assets/task06_camel_run_03.png)
 
 实操记录：
 1. 环境：本地venv虚拟环境，使用Qwen/Qwen3.5‑27B魔搭OpenAI兼容接口；
